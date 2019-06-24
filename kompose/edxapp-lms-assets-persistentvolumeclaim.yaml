@@ -6,9 +6,10 @@ metadata:
     io.kompose.service: edxapp-lms-assets
   name: edxapp-lms-assets
 spec:
+  storageClassName: manual
   accessModes:
-  - ReadWriteOnce
+  - ReadWriteMany
   resources:
     requests:
-      storage: 100Mi
+      storage: 50Mi
 status: {}

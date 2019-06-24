@@ -26,7 +26,7 @@ spec:
         - name: NODE_ENV
           value: development
         image: node:10
-        name: edx.devstack.gradebook
+        name: edx-devstack-gradebook
         ports:
         - containerPort: 1994
         resources: {}
