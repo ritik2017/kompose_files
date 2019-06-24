@@ -25,10 +25,10 @@ spec:
           && cd /edx/app/forum/cs_comments_service && bundle install && while true;
           do ruby app.rb -o 0.0.0.0 ; sleep 2; done
         image: edxops/forum:ironwood.master
-        name: edx.devstack.forum
+        name: edx-devstack-forum
         ports:
         - containerPort: 4567
         resources: {}
-      hostname: forum.devstack.edx
+      hostname: forum-devstack-edx
       restartPolicy: Always
 status: {}
