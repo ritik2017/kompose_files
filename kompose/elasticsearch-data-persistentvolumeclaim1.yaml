@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   creationTimestamp: null
   labels:
-    io.kompose.service: elasticsearch-data
+    io.kompose.service: elasticsearch-data1
   name: elasticsearch-data1
 spec:
   storageClassName: manual

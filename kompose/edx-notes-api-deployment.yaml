@@ -42,10 +42,10 @@ spec:
         - name: ENABLE_DJANGO_TOOLBAR
           value: "1"
         image: edxops/notes:ironwood.master
-        name: edx-devstack-edx_notes_api
+        name: edx-devstack-edx-notes-api
         ports:
         - containerPort: 18120
         resources: {}
-      hostname: edx_notes_api-devstack-edx
+      hostname: edx-notes-api-devstack-edx
       restartPolicy: Always
 status: {}

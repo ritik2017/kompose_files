@@ -6,9 +6,10 @@ metadata:
     io.kompose.service: chrome-claim1
   name: chrome-claim1
 spec:
+  storageClassName: manual
   accessModes:
-  - ReadWriteOnce
+  - ReadWriteMany
   resources:
     requests:
-      storage: 100Mi
+      storage: 50Mi
 status: {}
